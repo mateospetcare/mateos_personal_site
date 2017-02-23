@@ -1,9 +1,17 @@
-nav {
-  background-color: white;
-  margin-bottom: -100px;
-  
+.jumbotron .home {
+margin-top: 50px;
 }
 
-/*nav p {
-  display: inline-block;
-}*/
+.pet img{
+  height: 420px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
