@@ -42,7 +42,7 @@ img {
 }
 
 #contact {
-   background-image: image-url('background_images_personal_site/Elegant_Background-10.jpg');
+   background-image: url('background_images_personal_site/Elegant_Background-10.jpg');
 }
 /* overlay darker over on background images*/
 .layer {
