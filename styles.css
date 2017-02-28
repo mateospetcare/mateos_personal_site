@@ -1,12 +1,13 @@
 body {
   color: white;
+  overflow-x:hidden;
 }
 
 #contact a h2 {
  height: 35px;
  display: inline;
-  color: white;
-}
+ color: white;
+ }
 
 
 #contact img {
@@ -14,9 +15,14 @@ body {
  width: 50px;
 }
 
+#contact a {
+  text-decoration: none !important;
+}
+
 
 #home {
   background-image: url('background_images_personal_site/Elegant_Background-10.jpg');
+  background-size: cover;
   margin-top: 50px;
 }
 
@@ -26,15 +32,18 @@ body {
 
 #about {
   background-image: url('background_images_personal_site/Elegant_Background-9.jpg');
+  background-size: cover;
   padding: 0 40px 40px 40px;
 }
 
 #projects {
   background-image: url('background_images_personal_site/Elegant_Background-11.jpg');
+  background-size: cover;
 }
 
 #contact {
    background-image: url('background_images_personal_site/Elegant_Background-10.jpg');
+   background-size: cover;
 }
 /* overlay darker over on background images*/
 .layer {
@@ -56,3 +65,7 @@ img {
   width: 80%;
 }
 
+footer {
+  height: 50px;
+  width: auto;
+}
