@@ -1,10 +1,16 @@
 body {
   color: white;
   overflow-x:hidden;
+  font-family: 'Concert One', cursive;
+}
+
+#home img {
+  height: 150px;
+  width: auto;
+  margin: 10px 0 -10px 0;
 }
 
 #contact a h2 {
- height: 35px;
  display: inline;
  color: white;
  }
@@ -13,6 +19,7 @@ body {
 #contact img {
  height: 50px; 
  width: 50px;
+ margin-bottom: 10px;
 }
 
 #contact a {
@@ -30,6 +37,10 @@ body {
   margin-bottom: 40px;
 }
 
+#home h1 {
+  margin-bottom: -15px;
+}
+
 #about {
   background-image: url('background_images_personal_site/Elegant_Background-9.jpg');
   background-size: cover;
@@ -44,7 +55,10 @@ body {
 #contact {
    background-image: url('background_images_personal_site/Elegant_Background-10.jpg');
    background-size: cover;
+   padding-bottom: 20px;
 }
+
+
 /* overlay darker over on background images*/
 .layer {
     background-color: rgba(0,0,0,0.5);
@@ -56,16 +70,36 @@ section {
   margin: -20px;
 }
 
-figure {
-  margin: 10px;
-}
 
-img {
+#projects img {
   height: 80%;
   width: 80%;
 }
 
-footer {
-  height: 50px;
-  width: auto;
+#projects figure {
+ margin-bottom: 30px;
 }
+
+
+#projects h1{
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  #about h1{
+    font-size:30px;
+  }
+
+  #projects h1{
+    font-size:30px;
+  }
+
+  #contact h1 {
+        font-size:30px;
+    }
+
+   #contact h2 {
+        font-size:20px;
+    }
+}
+
