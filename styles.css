@@ -1,7 +1,11 @@
 body {
   color: white;
-  overflow-x:hidden;
+ 
   font-family: 'Concert One', cursive;
+}
+
+.wrapper {
+   overflow-x:hidden;
 }
 
 #home img {
